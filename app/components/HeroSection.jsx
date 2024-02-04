@@ -16,21 +16,21 @@ const HeroSection = () => {
         <h1 className="text-white mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <div className='text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600 '>Hello, I'm{""}</div>
             <TypeAnimation
-      sequence={[
-        // Same substring at the start will only be typed out once, initially
-        'Serge',
-        1000, // wait 1s before replacing "Mice" with "Hamsters"
-        'Web Designer',
-        1000,
-        'SEO Master',
-        1000,
-        'Digital Marketer',
-        1000
-      ]}
-      wrapper="span"
-      speed={50}
-      repeat={Infinity}
-    />
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                'Serge',
+                1000, // wait 1s before replacing "Mice" with "Hamsters"
+                'Web Designer',
+                1000,
+                'SEO Master',
+                1000,
+                'Digital Marketer',
+                1000
+              ]}
+              wrapper="span"
+              speed={50}
+              repeat={Infinity}
+            />
         </h1>
         <p className='text-[#ADB7BE] text-base mb-6 sm:text-lg lg:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ad a quo laudantium voluptatibus ipsam ducimus, dolore optio harum, modi non obcaecati mollitia sapiente assumenda perspiciatis, itaque maxime vero qui?</p>
         <div>
