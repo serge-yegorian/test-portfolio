@@ -18,6 +18,17 @@ module.exports = {
     },
     colors: {
       ...colors,
+      lightBlue: colors.lightBlue,
+      warmGray: colors.warmGray,
+      trueGray: colors.trueGray,
+      coolGray: colors.coolGray,
+      blueGray: colors.blueGray,
+      sky: colors.sky,
+      stone: colors.stone,
+      neutral: colors.neutral,
+      gray: colors.gray,
+      slate: colors.slate,
+
       primary: colors.blue,
       secondary: colors.yellow,
     },
