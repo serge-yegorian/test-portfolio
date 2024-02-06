@@ -45,7 +45,7 @@ const EmailSection = () => {
             {/* Primary Color Sphere */}
         </div>
       <div className="relative z-10">
-        <h5 className="text-xl font-bold text-white my-2">Let's Connect</h5>
+        <h5 className="text-xl font-bold text-white my-2">Let&apos;s Connect</h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
             We are constantly looking for new opportunities! Our inbox is always open. Whether you have a question or just want to say hi, we will do our best to respond to you as quickly as possible!
         </p>
